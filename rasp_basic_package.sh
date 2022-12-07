@@ -3,8 +3,9 @@
 
 sudo apt-get update
 
-sudo apt install docker.io
 sudo usermod -aG docker ubuntu
+sudo apt install docker.io -y
+
 
 wget https://github.com/iplon321-cloud/rasp_scripts/raw/main/raspberryData.tar.xz
 
